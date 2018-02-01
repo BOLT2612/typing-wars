@@ -5,6 +5,4 @@ const app = express();
 app.use(bodyParser.json());
 routes(app);
 
-const path = require('path');
-
 module.exports = app;

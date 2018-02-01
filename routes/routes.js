@@ -5,4 +5,6 @@ module.exports = (app) => {
 
   app.get('/', twController.simple);
 
+  app.get('/landing', twController.landing);
+
 }
